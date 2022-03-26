@@ -4,34 +4,46 @@
     <title>Form Basics</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
-
+  
+      
+  
   <body>
-		<main>
-
+	<main>
 		<section class="">
-    		<h1>Our Form</h1>
-    <form action="success.html" method="get">
-			<div>
-			<label for "name">Nombre </label>
-			<input name="name" id="name" type="text"></div>
-			<div>
-			<label for"email">Email </label>
-			<input name="email" id="email" type="email" placeholder="yo@ejemplo.com" required></div>
-			<div>
-			<label for "password">Password </label>
-			<input name="password" id="password" type="password" required></div>
-			<div>
-			<label for "search">Search </label>
-			<input name="search" id="search" type="search" placeholder="&#128269;"></div>
-			<div>
-			<label for "phone">Phone Number </label>
-			<input name="phone" id="phone" type="tel"></div>
-			<div>
-			<label for="textarea">Text Area</label>
-			<textarea name="textarea" id="textarea" cols="30" rows="15"></textarea></div>
-	    <div>
+    		<h1>Our Form</h1>			
+    		<form action="received.html" method="get"> 
+    			<div>
+    				<label for="name">Name</label>
+    				<input id="name" name="name" type="text">
+    			</div>
+    			<div>
+    				<label for="email">Email</label>
+    				<input id="email" name="email" type="email" 
+    				       placeholder="you@example.com">
+    			</div>
+
+
+    			<div>
+    				<label for="password">Password</label>
+    				<input id="password" name="password" type="password">
+    			</div>
+    			<div>
+    				<label for="search">Search</label>
+    				<input id="search" name="search" type="search" placeholder="&#128269;">
+    			</div>
+    			<div>
+    				<label for="phone">Phone Number</label>
+    				<input id="phone" name="phone" type="tel">
+    			</div>
+    			
+    			<div>
+    				<label for="textarea">Text Area</label>
+    				<textarea  id="textarea" name="textarea" cols="30" rows="15"></textarea>
+    			</div>
+					    			
+    			<div>
     				<label for="date">Date</label>
 	    			<input id="date" name="date" type="date">
     			</div>
@@ -45,7 +57,9 @@
     				<label for="file">File</label>
 	    			<input id="file" name="file" type="file" accept="image/*" multiple>
     			</div>
-			<label for="checkbox">Checkbox</label>
+
+    			<div>
+    				<label for="checkbox">Checkbox</label>
 						<input id="checkbox" name="simplecheckbox" type="checkbox" value="The checkbox is checked" checked >
     			</div>
 
@@ -77,9 +91,12 @@
 					  <input id="thatradio" name="radiobutton" type="radio" value="That">
 					  <label for="thatradio">That</label>
 					</fieldset>
-			<button type="submit">SUBMIT</button>
-	</form>
-	</section>
-  </main>
+				
+    			
+    			<button type="submit">Submit</button>
+    		</form>	
+		</section>	
+				
+    </main>
   </body>
 </html>
